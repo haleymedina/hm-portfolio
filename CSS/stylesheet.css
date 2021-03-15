@@ -1,0 +1,27 @@
+body,
+html {
+  height: 100%;
+}
+
+/* parallax scrolling */
+.parallax {
+  background-image: url(white-wall.jpeg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+/* header */
+header {
+  font-family: "Reenie Beanie", cursive;
+  text-align: center;
+}
+
